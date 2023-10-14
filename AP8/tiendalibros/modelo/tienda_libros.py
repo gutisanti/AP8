@@ -35,4 +35,3 @@ class TiendaLibros:
     def retirar_item_de_carrito(self, isbn):
         self.carrito.quitar_item(isbn)    
         
-    pass

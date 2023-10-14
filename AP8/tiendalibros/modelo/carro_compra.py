@@ -20,5 +20,5 @@ class CarroCompras:
     def quitar_item(self, isbn: str):
         self.items = [item for item in self.items if item.libro.isbn != isbn]
 
-pass
+
   
